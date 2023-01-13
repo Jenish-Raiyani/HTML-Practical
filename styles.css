@@ -144,8 +144,23 @@ top: 9px;
  }
  .card img{
     width: 110px;
-    height: auto;
-    
+    height: auto;   
+ }
+
+ .slider-btn{
+    position: relative;
+    top: 75px;
+    right: 36px;
+    padding: 10px;
+ }
+ .slider-btn button{
+    border: none;
+    width: 40px;
+    height: 6rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+   
  }
 /* @media only screen and (max-width: 900px) {
     .links
