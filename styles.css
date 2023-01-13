@@ -1,13 +1,16 @@
+ 
 nav{
     background-color: #2874F0;
     display: flex;
     justify-content: center;
     align-items: center;
+ 
     
      
 }
 .logo{
- margin-top: 15px;
+position: relative;
+top: 9px;
 }
 #flipkart-logo{
     width: 75px;
@@ -30,9 +33,11 @@ nav{
 
 .searchbar{
     background-color: white;
-    padding: 5px;
+    padding: 5px 20px;
     margin: 0px 10px;
     border-radius: 2px;
+   
+    height: 35px;
 }
 .searchbar input{
     border: none;
@@ -42,11 +47,15 @@ nav{
 
 .links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
-    margin-left: 10em;
-    width: 30rem;
+    margin-left: 10em; 
+    
+    /* width: 30rem; */
      
+}
+.links div{
+    margin-right: 2em; 
 }
 
 .links button{
@@ -60,8 +69,95 @@ nav{
  
 .more{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
  
+.links span{
+    color: white;
+    margin-right: 5px;
+    font-weight: 500;
+
+}
+.category-list{
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    /* border-bottom: 1px solid black; */
+}
+.category-list .items {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.box{
+    padding: 10px 30px;
+     
+}
+.box img{
+    width: 70px;
+    display: block;
+}
+.box span{
+    font-weight: 500;
+    
+}
+.products{
+    
+    background-color: #F1F3F6;
+    
+}
+ 
+.products-data{
+    background-color: white;
+    padding: 15px 15px 0px 15px;
+     
+  
+}
+.advertisement{
+    background-color: white;
+    /* padding: 10px; */
+    height: 380px;
+    margin-top: 30px;
+  
+    
+     
+    
+}
+.products-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-content span{
+    
+    font-weight: 700;
+    margin-right: 10px;
+}
+ .view-btn{
+    border: none;
+    background-color:  #2874F0;
+    color:  #ffffff;
+    font-weight: 500;
+    width: 6em;
+    padding: 5px;
+    border-radius: 4px;
+ }
+ .card img{
+    width: 110px;
+    height: auto;
+    
+ }
+/* @media only screen and (max-width: 900px) {
+    .links
+    {
+        margin-left: 2px;
+    }
+    
+    .searchbar input{
+        width: auto;
+    }
+    .links button{
+        padding: 5px;
+        width: auto;
+    }
+  } */
